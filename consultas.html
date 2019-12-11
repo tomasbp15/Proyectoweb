@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <meta http-equiv="x-ua-compatible" content="ie-edge">
+  <link rel="stylesheet" href="img/iconos/css/fontello.css">
+  <link rel="stylesheet" href="externo/boostrapp/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Css/estilo.css">
+  <title>Consultas</title>
+</head>
+
+
+<header>
+    
+  
+        <div class="cabecera-expand-lg">
+            <a class="navbar-brand"><img src="img/pantos.png" alt=""></a>  
+    
+          
+          </div>
+  
+  </header>
+  
+
+<body>
+
+
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Software Medico</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li><a href="index.html">Inicio</a></li>
+         
+                  <li><a href="afiliaciones.html">Afiliaciones</a></li>
+           
+           <li><a href="consultas.html">Consultas</a></li>
+            <li>
+                <a href="#">Salir</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fas fa-align-left"></i>
+                <span>Menu</span>
+            </button>
+
+        </div>
+    </nav>
+
+    <div class="container">
+    	<div class="busqueda">
+    		<input type="text" placeholder="Buscar...">
+    	</div>
+      <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apeliido</th>
+      <th scope="col">Correo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Tomas</td>
+      <td>Borja</td>
+      <td>tomas@correo.com</td>
+    </tr>
+   
+    
+  </tbody>
+</table>
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">2</th>
+      <th scope="col">Beatriz</th>
+      <th scope="col">Perez</th>
+      <th scope="col">beatriz@gmail.com</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+  </tbody>
+</table>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+    <script src="externo/boostrapp/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="externo/boostrapp/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/estilo.js"></script>
+    <script>
+      $(document).ready(function () {
+
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+
+});
+    </script>
+</body>
+
+</html>

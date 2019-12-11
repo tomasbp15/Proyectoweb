@@ -1,0 +1,279 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera-expand-lg{
+    width: 100%;
+    height: 75px;
+    text-align: left;
+    background-image: url(../img/banner\ 2.jpg);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    
+}
+#carousel-1{
+  margin: 40px;
+}
+.user-img{
+  margin-top: -5px;
+  margin-bottom:35px;
+}
+.user-img img{
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 3px #848484;
+  border-radius: 50%;
+}
+.logueo{
+  margin:40px;
+ padding: 0;
+}
+.main-section2{
+  margin:0 auto;
+  margin-top: 20%;
+  padding: 0; 
+
+}
+.form{
+  margin:auto;
+  width: 100%;
+  max-width: 500px;
+  background: #f3f3f3;
+  padding: 30px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.titulo{
+  text-align:center;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+input{
+  display: block;
+  padding: 10px;
+  width:100% ;
+  margin:30px 0;
+  font-size: 20px;
+}
+a.btn{
+  background:linear-gradient(#FFDA63, #FFB940) ;
+  border: 0;
+  color: brown;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom:0 ;
+}
+a.btn:hover{
+  opacity: 1;
+}
+a.btn:active{
+  transform: scale(0.95);
+}
+@media(max-width:768px){
+form{
+  width: 75%;
+}
+
+}
+@media(max-width:480px){
+  form{
+    width: 90%;
+  }
+  
+  }
+
+.modal-content{
+  background-color: #3b4652;
+  opacity: .85;
+  padding:  5px 0px;
+  box-shadow: 0px 0px 3px #848484;
+}
+
+.forgot{
+  padding: 5px 0 5px;
+}
+.forgot a{
+  color: white;
+}
+.pie{
+  font: 15px  negrita ,sans-serif;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+  }
+  .pie1{
+  font: 15px  negrita ,sans-serif;
+  }
+.text{ 
+  margin: 50px;
+  text-align: center; 
+}
+.parrafo{
+  margin: 50px;
+  text-align: justify;
+}
+.img{
+  text-align: center;
+}
+.main{
+  padding-top: 6rem;
+}
+.login{
+background-image: url(../img/fondo.jpg); 
+}
+/*#sidebar{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background:#151719 ;
+  left: -200px;
+  transition: all 500ms linear;
+}
+#sidebar.active{
+  left :  0;
+}*/
+/*#sidebar ul li {
+color : rgba(230, 230, 230, .9);
+text-align: center;
+padding: 15px 10px;
+list-style: none;
+border-bottom : 1px solid rgba(100, 100, 100, .3);
+
+
+}*/
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+/*#sidebar .toggle-btn{
+  position: absolute;
+  left: 230px;
+  top:20px;
+  cursor: pointer;
+}
+#sidebar .toggle-btn span{
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #000;
+}*/
+
+
+/*sidebar By Jar*/
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+  .wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+*
+    ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+#content{
+  width: 100%;
+}
